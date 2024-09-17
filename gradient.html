@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .outlined-box {
+            width: 700px;
+            height: 300px;
+            border: 2px solid black;
+            outline: 5px solid red;
+        }
+        .shadow-box{
+            width:200px;
+            height:300px;
+            background-color: lightblue;
+            box-shadow:10px 10px 5px; 
+        }
+        .shadow-text{
+            font-size:80px;
+            color:blue;
+            text-shadow:2px 2px 5px;
+        }
+        
+        #grad1 {
+            height: 200px;
+            width:300px;
+            background-image: linear-gradient(violet,blue,indigo,yellow,red);
+
+        }
+        #grad2{
+            height: 200px;
+            width:300px;
+            background-image: radial-gradient( yellow,green,blue)
+        }
+        #grad3{
+            height: 200px;
+            width:300px;
+            background-image: conic-gradient(blue,white,green,red,black);
+        }     
+
+    </style>
+</head>
+<body>
+    <div class="outlined-box">Outlined Box</div>
+    <div class="shadow-box">Boxshadow</div>
+    <div class="shadow-text">Shadow text</div>
+    <div id="grad1"> linear-gradient</div><br>
+    <div id="grad2">radial-gradient</div><br>
+    <div id="grad3">conic-gradient</div>   
+</body>
+
+</body>
+</html>
+
